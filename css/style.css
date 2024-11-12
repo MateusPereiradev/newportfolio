@@ -1,0 +1,11 @@
+/* global */
+@import url(./global/global.css);
+
+/* header */
+@import url(./header/header.css);
+
+/* intro */
+@import url(./intro/intro.css);
+
+/* experiência */
+@import url(./experiencia/experiencia.css);
