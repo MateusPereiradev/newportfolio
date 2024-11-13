@@ -1,0 +1,30 @@
+.footer-bg {
+  background-color: #000;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  align-items: center;
+}
+
+.footer p {
+  font-size: 1.5rem;
+  color: #ccc;
+}
+
+.footer-lista li {
+  font-size: 2.25rem;
+  margin-bottom: 30px;
+}
+
+.footer-lista a {
+  color: #fff;
+}
+
+.footer span {
+  color: #8f8f8f;
+}
