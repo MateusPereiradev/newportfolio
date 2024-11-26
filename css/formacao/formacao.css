@@ -65,6 +65,9 @@
 .formacao-extra h3 {
   margin-bottom: 30px;
   color: #8f8f8f;
+  position: relative;
+  display: flex;
+  align-items: center;
 }
 
 .extra-lista li {
@@ -74,6 +77,15 @@
   color: #fff;
 }
 
+.formacao-extra h3::before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 16px;
+  left: -6px;
+  background-color: green;
+}
+
 .extra-lista li span {
   color: #8f8f8f;
 }
@@ -81,4 +93,16 @@
 .formacao-idioma h3 {
   margin-bottom: 30px;
   color: #8f8f8f;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.formacao-idioma h3::before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 16px;
+  left: -6px;
+  background-color: green;
 }
